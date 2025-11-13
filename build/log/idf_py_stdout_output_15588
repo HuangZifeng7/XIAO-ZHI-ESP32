@@ -1,0 +1,501 @@
+Command: F:\ESP-IDF\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe F:\ESP-IDF\Espressif\frameworks\esp-idf-v5.5.1\tools/idf_monitor.py -p COM5 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 C:\Users\17627\Desktop\ESP32_Code\AAA_CLASS\xiaozhi-esp32-main\build\xiaozhi.elf C:\Users\17627\Desktop\ESP32_Code\AAA_CLASS\xiaozhi-esp32-main\build\bootloader\bootloader.elf --force-color -m 'F:\ESP-IDF\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe' 'F:\ESP-IDF\Espressif\frameworks\esp-idf-v5.5.1\tools\idf.py'
+ESP-ROM:esp32s3-20210327
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x548
+load:0x403c8700,len:0xc3c
+load:0x403cb700,len:0x2e70
+entry 0x403c8908
+[0;32mI (34) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (35) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (35) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (36) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (41) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (45) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (49) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (54) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (59) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (63) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (68) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (73) MSPI Timing: PSRAM timing tuning index: 5[0m
+[0;32mI (77) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (80) esp_psram: Speed: 80MHz[0m
+[0;32mI (83) cpu_start: Multicore app[0m
+[0;32mI (98) cpu_start: Pro cpu start user code[0m
+[0;32mI (98) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (98) app_init: Application information:[0m
+[0;32mI (98) app_init: Project name:     xiaozhi[0m
+[0;32mI (101) app_init: App version:      2.0.4[0m
+[0;32mI (105) app_init: Compile time:     Nov 12 2025 17:48:02[0m
+[0;32mI (110) app_init: ELF file SHA256:  89307e59e...[0m
+[0;32mI (114) app_init: ESP-IDF:          v5.5.1[0m
+[0;32mI (118) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (122) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (126) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (130) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (136) heap_init: At 3FCAEC30 len 0003AAE0 (234 KiB): RAM[0m
+[0;32mI (141) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (146) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (152) heap_init: At 600FE000 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (157) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (164) spi_flash: detected chip: boya[0m
+[0;32mI (167) spi_flash: flash io: qio[0m
+[0;32mI (170) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (176) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (183) main_task: Started on CPU0[0m
+[0;32mI (213) esp_psram: Reserving pool of 64K of internal memory for DMA/internal allocations[0m
+[0;32mI (213) main_task: Calling app_main()[0m
+[0;32mI (233) Board: UUID=405c09be-f905-453d-a723-1eeb0db6ff52 SKU=bread-compact-wifi-lcd[0m
+[0;32mI (233) button: IoT Button Version: 4.1.4[0m
+[0;32mI (353) Display: Power management not supported[0m
+[0;32mI (413) LcdDisplay: Turning display on[0m
+[0;32mI (413) LcdDisplay: Initialize LVGL library[0m
+[0;32mI (413) LcdDisplay: Use 2MB of PSRAM for image cache[0m
+[0;32mI (413) LcdDisplay: Initialize LVGL port[0m
+[0;32mI (423) LcdDisplay: Adding LCD display[0m
+[0;32mI (423) LVGL: Starting LVGL task[0m
+[0;32mI (433) MCP: Add tool: self.lamp.get_state[0m
+[0;32mI (433) MCP: Add tool: self.lamp.turn_on[0m
+[0;32mI (433) MCP: Add tool: self.lamp.turn_off[0m
+[0;32mI (443) Backlight: Set brightness to 75[0m
+[0;32mI (443) Application: STATE: starting[0m
+[0;32mI (483) NoAudioCodec: Simplex channels created[0m
+[0;32mI (483) AudioCodec: Set input enable to true[0m
+[0;32mI (483) AudioCodec: Set output enable to true[0m
+[0;32mI (483) AudioCodec: Audio codec started[0m
+[0;32mI (493) pp: pp rom version: e7ae62f[0m
+[0;32mI (493) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (503) wifi:wifi driver task: 3fcdbc4c, prio:23, stack:6144, core=0[0m
+[0;32mI (503) wifi:wifi firmware version: 14da9b7[0m
+[0;32mI (503) wifi:wifi certification version: v7.0[0m
+[0;32mI (513) wifi:config NVS flash: disabled[0m
+[0;32mI (513) wifi:config nano formatting: enabled[0m
+[0;32mI (523) wifi:Init data frame dynamic rx buffer num: 6[0m
+[0;32mI (523) wifi:Init dynamic rx mgmt buffer num: 5[0m
+[0;32mI (523) wifi:Init management short buffer num: 32[0m
+[0;32mI (533) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (533) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (543) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (543) wifi:Init static rx buffer num: 3[0m
+[0;32mI (543) wifi:Init dynamic rx buffer num: 6[0m
+[0;32mI (553) wifi_init: rx ba win: 3[0m
+[0;32mI (553) wifi_init: accept mbox: 6[0m
+[0;32mI (553) wifi_init: tcpip mbox: 16[0m
+[0;32mI (563) wifi_init: udp mbox: 6[0m
+[0;32mI (563) wifi_init: tcp mbox: 6[0m
+[0;32mI (563) wifi_init: tcp tx win: 5760[0m
+[0;32mI (573) wifi_init: tcp rx win: 5760[0m
+[0;32mI (573) wifi_init: tcp mss: 1440[0m
+[0;32mI (573) phy_init: phy_version 701,f4f1da3a,Mar  3 2025,15:50:10[0m
+[0;32mI (613) wifi:mode : sta (dc:b4:d9:14:3e:a8)[0m
+[0;32mI (613) wifi:enable tsf[0m
+[0;32mI (3023) WifiStation: Wait for next scan[0m
+[0;32mI (5443) WifiStation: Wait for next scan[0m
+[0;32mI (7853) WifiStation: Wait for next scan[0m
+[0;32mI (10273) WifiStation: Wait for next scan[0m
+[0;32mI (10493) SystemInfo: free sram: 150491 minimal sram: 148655[0m
+[0;32mI (12683) WifiStation: Wait for next scan[0m
+[0;32mI (15103) WifiStation: Wait for next scan[0m
+[0;32mI (15493) AudioCodec: Set input enable to false[0m
+[0;32mI (15493) AudioCodec: Set output enable to false[0m
+[0;32mI (17523) WifiStation: Wait for next scan[0m
+[0;32mI (19933) WifiStation: Wait for next scan[0m
+[0;32mI (20493) SystemInfo: free sram: 150379 minimal sram: 148367[0m
+[0;32mI (22353) WifiStation: Wait for next scan[0m
+[0;32mI (24773) WifiStation: Wait for next scan[0m
+[0;32mI (27183) WifiStation: Wait for next scan[0m
+[0;32mI (29603) WifiStation: Wait for next scan[0m
+[0;32mI (30493) SystemInfo: free sram: 150183 minimal sram: 148343[0m
+[0;32mI (32013) WifiStation: Wait for next scan[0m
+[0;32mI (34433) WifiStation: Wait for next scan[0m
+[0;32mI (36853) WifiStation: Wait for next scan[0m
+[0;32mI (39263) WifiStation: Wait for next scan[0m
+[0;32mI (40493) SystemInfo: free sram: 149595 minimal sram: 148343[0m
+[0;32mI (41683) WifiStation: Wait for next scan[0m
+[0;32mI (44093) WifiStation: Wait for next scan[0m
+[0;32mI (46513) WifiStation: Wait for next scan[0m
+[0;32mI (48933) WifiStation: Wait for next scan[0m
+[0;32mI (50493) SystemInfo: free sram: 148995 minimal sram: 148343[0m
+[0;32mI (51343) WifiStation: Wait for next scan[0m
+[0;32mI (53763) WifiStation: Wait for next scan[0m
+[0;32mI (56183) WifiStation: Wait for next scan[0m
+[0;32mI (58593) WifiStation: Wait for next scan[0m
+[0;32mI (60493) SystemInfo: free sram: 149183 minimal sram: 148075[0m
+[0;32mI (60613) WifiStation: Wait for next scan[0m
+[0;32mI (60613) wifi:flush txq[0m
+[0;32mI (60613) wifi:stop sw txq[0m
+[0;32mI (60613) wifi:lmac stop hw txq[0m
+[0;32mI (60613) wifi:Deinit lldesc rx mblock:3[0m
+[0;32mI (60623) Application: STATE: configuring[0m
+[0;32mI (60623) DnsServer: Starting DNS server[0m
+[0;32mI (60623) pp: pp rom version: e7ae62f[0m
+[0;32mI (60623) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (60643) wifi:wifi driver task: 3fcdd614, prio:23, stack:6144, core=0[0m
+[0;32mI (60643) wifi:wifi firmware version: 14da9b7[0m
+[0;32mI (60643) wifi:wifi certification version: v7.0[0m
+[0;32mI (60643) wifi:config NVS flash: enabled[0m
+[0;32mI (60653) wifi:config nano formatting: enabled[0m
+[0;32mI (60653) wifi:Init data frame dynamic rx buffer num: 6[0m
+[0;32mI (60653) wifi:Init dynamic rx mgmt buffer num: 5[0m
+[0;32mI (60663) wifi:Init management short buffer num: 32[0m
+[0;32mI (60663) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (60673) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (60673) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (60683) wifi:Init static rx buffer num: 3[0m
+[0;32mI (60683) wifi:Init dynamic rx buffer num: 6[0m
+[0;32mI (60683) wifi_init: rx ba win: 3[0m
+[0;32mI (60693) wifi_init: accept mbox: 6[0m
+[0;32mI (60693) wifi_init: tcpip mbox: 16[0m
+[0;32mI (60693) wifi_init: udp mbox: 6[0m
+[0;32mI (60703) wifi_init: tcp mbox: 6[0m
+[0;32mI (60703) wifi_init: tcp tx win: 5760[0m
+[0;32mI (60703) wifi_init: tcp rx win: 5760[0m
+[0;32mI (60713) wifi_init: tcp mss: 1440[0m
+[0;32mI (60723) wifi:Set ps type: 0, coexist: 0[0m
+
+[0;32mI (60723) wifi:mode : sta (dc:b4:d9:14:3e:a8) + softAP (dc:b4:d9:14:3e:a9)[0m
+[0;32mI (60723) wifi:enable tsf[0m
+[0;32mI (60723) wifi:Total power save buffer number: 16[0m
+[0;32mI (60733) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (60733) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (60743) WifiConfigurationAp: Access Point started with SSID Xiaozhi-3EA9[0m
+[0;32mI (60743) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+[0;32mI (60753) WifiConfigurationAp: Web server started[0m
+[0;33mW (62253) Application: Alert [gear] 配网模式: 手机连接热点 Xiaozhi-3EA9，浏览器访问 http://192.168.4.1[0m
+
+
+[0;32mI (62253) AudioCodec: Set output enable to true[0m
+[0;32mI (62253) AudioService: OpusHead: version=1, channels=1, sample_rate=16000[0m
+[0;32mI (62263) AudioService: Resampling audio from 16000 to 24000[0m
+[0;32mI (62263) OpusResampler: Resampler configured with input sample rate 16000 and output sample rate 24000[0m
+[0;32mI (70493) SystemInfo: free sram: 136927 minimal sram: 130199[0m
+[0;32mI (79253) AudioCodec: Set output enable to false[0m
+[0;32mI (80493) SystemInfo: free sram: 137267 minimal sram: 130199[0m
+[0;32mI (90493) SystemInfo: free sram: 137267 minimal sram: 130199[0m
+[0;32mI (100493) SystemInfo: free sram: 135251 minimal sram: 130199[0m
+[0;32mI (110493) SystemInfo: free sram: 137267 minimal sram: 130199[0m
+[0;32mI (120493) SystemInfo: free sram: 137267 minimal sram: 130199[0m
+[0;32mI (130493) SystemInfo: free sram: 137267 minimal sram: 130199[0m
+[0;32mI (140493) SystemInfo: free sram: 134363 minimal sram: 130199[0m
+[0;32mI (150493) SystemInfo: free sram: 137267 minimal sram: 130199[0m
+[0;32mI (160493) SystemInfo: free sram: 137267 minimal sram: 130199[0m
+[0;32mI (170493) SystemInfo: free sram: 137267 minimal sram: 130199[0m
+[0;32mI (180493) SystemInfo: free sram: 137267 minimal sram: 130199[0m
+[0;32mI (190493) SystemInfo: free sram: 135059 minimal sram: 130199[0m
+[0;32mI (200493) SystemInfo: free sram: 137267 minimal sram: 130199[0m
+[0;32mI (210493) SystemInfo: free sram: 137267 minimal sram: 130199[0m
+[0;32mI (220493) SystemInfo: free sram: 137267 minimal sram: 130199[0m
+[0;32mI (230493) SystemInfo: free sram: 137271 minimal sram: 130199[0m
+[0;32mI (231063) wifi:new:<1,1>, old:<1,1>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (231063) wifi:station: e2:d3:25:35:d0:a5 join, AID=1, bgn, 40U[0m
+[0;32mI (231073) WifiConfigurationAp: Station e2:d3:25:35:d0:a5 joined, AID=1[0m
+[0;32mI (231093) wifi:<ba-add>idx:2 (ifx:1, e2:d3:25:35:d0:a5), tid:0, ssn:0, winSize:64[0m
+[0;32mI (231293) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2[0m
+[0;32mI (231513) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (231553) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (231653) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (231663) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (231813) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (232073) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (232243) WifiConfigurationAp: SSID: BUPT-scholar, RSSI: -46, Authmode: 0[0m
+[0;32mI (232243) WifiConfigurationAp: SSID: eduroam, RSSI: -46, Authmode: 5[0m
+[0;32mI (232243) WifiConfigurationAp: SSID: BUPT-iot, RSSI: -46, Authmode: 0[0m
+[0;32mI (232253) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -47, Authmode: 0[0m
+[0;32mI (232253) WifiConfigurationAp: SSID: 11111, RSSI: -49, Authmode: 3[0m
+[0;32mI (232263) WifiConfigurationAp: SSID: eduroam, RSSI: -62, Authmode: 5[0m
+[0;32mI (232263) WifiConfigurationAp: SSID: BUPT-iot, RSSI: -62, Authmode: 0[0m
+[0;32mI (232273) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -63, Authmode: 0[0m
+[0;32mI (232283) WifiConfigurationAp: SSID: BUPT-scholar, RSSI: -64, Authmode: 0[0m
+[0;32mI (232283) WifiConfigurationAp: SSID: Lab225, RSSI: -66, Authmode: 4[0m
+[0;32mI (232293) WifiConfigurationAp: SSID: Redmi K40, RSSI: -68, Authmode: 3[0m
+[0;32mI (232303) WifiConfigurationAp: SSID: BUPT-iot, RSSI: -68, Authmode: 0[0m
+[0;32mI (232303) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -69, Authmode: 0[0m
+[0;32mI (232313) WifiConfigurationAp: SSID: BUPT-scholar, RSSI: -70, Authmode: 0[0m
+[0;32mI (232323) WifiConfigurationAp: SSID: eduroam, RSSI: -70, Authmode: 5[0m
+[0;32mI (232323) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -76, Authmode: 0[0m
+[0;32mI (232333) WifiConfigurationAp: SSID: BUPT-iot, RSSI: -76, Authmode: 0[0m
+[0;32mI (232333) WifiConfigurationAp: SSID: DIRECT-D9-Mi Laser Printer K100, RSSI: -76, Authmode: 3[0m
+[0;32mI (232343) WifiConfigurationAp: SSID: 4-137, RSSI: -76, Authmode: 3[0m
+[0;32mI (232353) WifiConfigurationAp: SSID: BUPT-scholar, RSSI: -77, Authmode: 0[0m
+[0;32mI (232363) WifiConfigurationAp: SSID: 1106, RSSI: -77, Authmode: 3[0m
+[0;32mI (232363) WifiConfigurationAp: SSID: eduroam, RSSI: -78, Authmode: 5[0m
+[0;32mI (232373) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -79, Authmode: 0[0m
+[0;32mI (232373) WifiConfigurationAp: SSID: BUPT-iot, RSSI: -79, Authmode: 0[0m
+[0;32mI (232383) WifiConfigurationAp: SSID: BUPT-scholar, RSSI: -79, Authmode: 0[0m
+[0;32mI (232393) WifiConfigurationAp: SSID: 4119, RSSI: -81, Authmode: 4[0m
+[0;32mI (232393) WifiConfigurationAp: SSID: eduroam, RSSI: -81, Authmode: 5[0m
+[0;32mI (232403) WifiConfigurationAp: SSID: BUPT-iot, RSSI: -81, Authmode: 0[0m
+[0;32mI (232413) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -83, Authmode: 0[0m
+[0;32mI (232413) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -84, Authmode: 0[0m
+[0;32mI (232423) WifiConfigurationAp: SSID: BUPT-iot, RSSI: -85, Authmode: 0[0m
+[0;32mI (232423) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -86, Authmode: 0[0m
+[0;32mI (232433) WifiConfigurationAp: SSID: WYL_425, RSSI: -86, Authmode: 3[0m
+[0;32mI (232443) WifiConfigurationAp: SSID: eduroam, RSSI: -87, Authmode: 5[0m
+[0;32mI (233233) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (233693) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (234083) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (234143) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (234173) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (236173) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (236173) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (236293) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (236833) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (237473) WifiConfigurationAp: SSID: BUPT-scholar, RSSI: -46, Authmode: 0[0m
+[0;32mI (237473) WifiConfigurationAp: SSID: eduroam, RSSI: -46, Authmode: 5[0m
+[0;32mI (237473) WifiConfigurationAp: SSID: BUPT-iot, RSSI: -46, Authmode: 0[0m
+[0;32mI (237483) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -47, Authmode: 0[0m
+[0;32mI (237483) WifiConfigurationAp: SSID: 11111, RSSI: -49, Authmode: 3[0m
+[0;32mI (237493) WifiConfigurationAp: SSID: eduroam, RSSI: -62, Authmode: 5[0m
+[0;32mI (237493) WifiConfigurationAp: SSID: BUPT-iot, RSSI: -62, Authmode: 0[0m
+[0;32mI (237503) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -63, Authmode: 0[0m
+[0;32mI (237513) WifiConfigurationAp: SSID: BUPT-scholar, RSSI: -64, Authmode: 0[0m
+[0;32mI (237513) WifiConfigurationAp: SSID: Lab225, RSSI: -66, Authmode: 4[0m
+[0;32mI (237523) WifiConfigurationAp: SSID: Redmi K40, RSSI: -68, Authmode: 3[0m
+[0;32mI (237533) WifiConfigurationAp: SSID: BUPT-iot, RSSI: -68, Authmode: 0[0m
+[0;32mI (237533) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -69, Authmode: 0[0m
+[0;32mI (237543) WifiConfigurationAp: SSID: BUPT-scholar, RSSI: -70, Authmode: 0[0m
+[0;32mI (237553) WifiConfigurationAp: SSID: eduroam, RSSI: -70, Authmode: 5[0m
+[0;32mI (237553) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -76, Authmode: 0[0m
+[0;32mI (237563) WifiConfigurationAp: SSID: BUPT-iot, RSSI: -76, Authmode: 0[0m
+[0;32mI (237563) WifiConfigurationAp: SSID: DIRECT-D9-Mi Laser Printer K100, RSSI: -76, Authmode: 3[0m
+[0;32mI (237573) WifiConfigurationAp: SSID: 4-137, RSSI: -76, Authmode: 3[0m
+[0;32mI (237583) WifiConfigurationAp: SSID: BUPT-scholar, RSSI: -77, Authmode: 0[0m
+[0;32mI (237593) WifiConfigurationAp: SSID: 1106, RSSI: -77, Authmode: 3[0m
+[0;32mI (237593) WifiConfigurationAp: SSID: eduroam, RSSI: -78, Authmode: 5[0m
+[0;32mI (237603) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -79, Authmode: 0[0m
+[0;32mI (237603) WifiConfigurationAp: SSID: BUPT-iot, RSSI: -79, Authmode: 0[0m
+[0;32mI (237613) WifiConfigurationAp: SSID: BUPT-scholar, RSSI: -79, Authmode: 0[0m
+[0;32mI (237623) WifiConfigurationAp: SSID: 4119, RSSI: -81, Authmode: 4[0m
+[0;32mI (237623) WifiConfigurationAp: SSID: eduroam, RSSI: -81, Authmode: 5[0m
+[0;32mI (237633) WifiConfigurationAp: SSID: BUPT-iot, RSSI: -81, Authmode: 0[0m
+[0;32mI (237633) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -83, Authmode: 0[0m
+[0;32mI (237643) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -84, Authmode: 0[0m
+[0;32mI (237653) WifiConfigurationAp: SSID: BUPT-iot, RSSI: -85, Authmode: 0[0m
+[0;32mI (237653) WifiConfigurationAp: SSID: BUPT-portal, RSSI: -86, Authmode: 0[0m
+[0;32mI (237663) WifiConfigurationAp: SSID: WYL_425, RSSI: -86, Authmode: 3[0m
+[0;32mI (237673) WifiConfigurationAp: SSID: eduroam, RSSI: -87, Authmode: 5[0m
+[0;32mI (240493) SystemInfo: free sram: 135711 minimal sram: 129643[0m
+[0;32mI (241243) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;33mW (241243) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (241243) WifiConfigurationAp: Connecting to WiFi 杜冥鸦[0m
+[0;32mI (241393) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (241823) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (243663) DnsServer: Sending DNS response to 192.168.4.1[0m
+[0;32mI (244073) wifi:new:<1,1>, old:<1,1>, ap:<1,1>, sta:<1,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (244073) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (244083) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (244083) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (244103) wifi:connected with 杜冥鸦, aid = 2, channel 1, BW20, bssid = 12:cd:cc:e8:e8:64[0m
+[0;32mI (244103) wifi:security: WPA2-PSK, phy: bgn, rssi: -28[0m
+[0;32mI (244103) wifi:pm start, type: 0[0m
+
+[0;32mI (244103) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (244113) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (244123) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us[0m
+[0;32mI (244133) wifi:AP's beacon interval = 102400 us, DTIM period = 2[0m
+[0;32mI (244143) WifiConfigurationAp: Connected to WiFi 杜冥鸦[0m
+[0;32mI (244143) wifi:state: run -> init (0x0)[0m
+[0;32mI (244153) wifi:pm stop, total sleep time: lu us / lu us[0m
+
+[0;32mI (244153) wifi:new:<1,1>, old:<1,1>, ap:<1,1>, sta:<1,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (244163) WifiConfigurationAp: Save SSID 杜冥鸦 9[0m
+[0;32mI (244163) SsidManager: compare [杜冥鸦:9] [杜冥鸦:9][0m
+[0;33mW (244173) SsidManager: SSID 杜冥鸦 already exists, overwrite it[0m
+[0;33mW (244183) httpd_uri: httpd_uri: URI '/mmtls/4e1ca8cf' not found[0m
+[0;33mW (244183) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+[0;33mW (245483) httpd_uri: httpd_uri: URI '/mmtls/29b0b419' not found[0m
+[0;33mW (245483) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+[0;32mI (247283) WifiConfigurationAp: Rebooting...[0m
+[0;32mI (247683) wifi:station: e2:d3:25:35:d0:a5 leave, AID = 1, reason = 2, bss_flags is 33786979, bss:0x3c280628[0m
+[0;32mI (247683) wifi:new:<1,0>, old:<1,1>, ap:<1,1>, sta:<1,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (247683) wifi:<ba-del>idx:2, tid:0[0m
+[0;32mI (247683) wifi:new:<1,1>, old:<1,0>, ap:<1,1>, sta:<1,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (247693) WifiConfigurationAp: Station e2:d3:25:35:d0:a5 left, AID=1[0m
+[0;32mI (247773) wifi:flush txq[0m
+[0;32mI (247773) wifi:stop sw txq[0m
+[0;32mI (247773) wifi:lmac stop hw txq[0m
+ ��ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40385731
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x548
+load:0x403c8700,len:0xc3c
+load:0x403cb700,len:0x2e70
+entry 0x403c8908
+[0;32mI (39) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (39) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (39) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (41) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (45) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (49) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (53) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (58) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (63) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (67) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (72) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (77) MSPI Timing: PSRAM timing tuning index: 5[0m
+[0;32mI (81) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (85) esp_psram: Speed: 80MHz[0m
+[0;32mI (87) cpu_start: Multicore app[0m
+[0;32mI (102) cpu_start: Pro cpu start user code[0m
+[0;32mI (102) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (102) app_init: Application information:[0m
+[0;32mI (102) app_init: Project name:     xiaozhi[0m
+[0;32mI (106) app_init: App version:      2.0.4[0m
+[0;32mI (110) app_init: Compile time:     Nov 12 2025 17:48:02[0m
+[0;32mI (115) app_init: ELF file SHA256:  89307e59e...[0m
+[0;32mI (119) app_init: ESP-IDF:          v5.5.1[0m
+[0;32mI (123) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (127) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (131) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (135) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (141) heap_init: At 3FCAEC30 len 0003AAE0 (234 KiB): RAM[0m
+[0;32mI (146) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (151) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (156) heap_init: At 600FE000 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (162) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (169) spi_flash: detected chip: boya[0m
+[0;32mI (172) spi_flash: flash io: qio[0m
+[0;32mI (175) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (181) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (188) main_task: Started on CPU0[0m
+[0;32mI (218) esp_psram: Reserving pool of 64K of internal memory for DMA/internal allocations[0m
+[0;32mI (218) main_task: Calling app_main()[0m
+[0;32mI (238) Board: UUID=405c09be-f905-453d-a723-1eeb0db6ff52 SKU=bread-compact-wifi-lcd[0m
+[0;32mI (238) button: IoT Button Version: 4.1.4[0m
+[0;32mI (368) Display: Power management not supported[0m
+[0;32mI (428) LcdDisplay: Turning display on[0m
+[0;32mI (428) LcdDisplay: Initialize LVGL library[0m
+[0;32mI (428) LcdDisplay: Use 2MB of PSRAM for image cache[0m
+[0;32mI (428) LcdDisplay: Initialize LVGL port[0m
+[0;32mI (438) LcdDisplay: Adding LCD display[0m
+[0;32mI (438) LVGL: Starting LVGL task[0m
+[0;32mI (448) MCP: Add tool: self.lamp.get_state[0m
+[0;32mI (448) MCP: Add tool: self.lamp.turn_on[0m
+[0;32mI (448) MCP: Add tool: self.lamp.turn_off[0m
+[0;32mI (458) Backlight: Set brightness to 75[0m
+[0;32mI (458) Application: STATE: starting[0m
+[0;32mI (498) NoAudioCodec: Simplex channels created[0m
+[0;32mI (498) AudioCodec: Set input enable to true[0m
+[0;32mI (498) AudioCodec: Set output enable to true[0m
+[0;32mI (498) AudioCodec: Audio codec started[0m
+[0;32mI (508) pp: pp rom version: e7ae62f[0m
+[0;32mI (508) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (518) wifi:wifi driver task: 3fcdbc54, prio:23, stack:6144, core=0[0m
+[0;32mI (518) wifi:wifi firmware version: 14da9b7[0m
+[0;32mI (518) wifi:wifi certification version: v7.0[0m
+[0;32mI (528) wifi:config NVS flash: disabled[0m
+[0;32mI (528) wifi:config nano formatting: enabled[0m
+[0;32mI (538) wifi:Init data frame dynamic rx buffer num: 6[0m
+[0;32mI (538) wifi:Init dynamic rx mgmt buffer num: 5[0m
+[0;32mI (538) wifi:Init management short buffer num: 32[0m
+[0;32mI (548) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (548) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (558) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (558) wifi:Init static rx buffer num: 3[0m
+[0;32mI (558) wifi:Init dynamic rx buffer num: 6[0m
+[0;32mI (568) wifi_init: rx ba win: 3[0m
+[0;32mI (568) wifi_init: accept mbox: 6[0m
+[0;32mI (568) wifi_init: tcpip mbox: 16[0m
+[0;32mI (578) wifi_init: udp mbox: 6[0m
+[0;32mI (578) wifi_init: tcp mbox: 6[0m
+[0;32mI (578) wifi_init: tcp tx win: 5760[0m
+[0;32mI (588) wifi_init: tcp rx win: 5760[0m
+[0;32mI (588) wifi_init: tcp mss: 1440[0m
+[0;32mI (588) phy_init: phy_version 701,f4f1da3a,Mar  3 2025,15:50:10[0m
+[0;32mI (628) wifi:mode : sta (dc:b4:d9:14:3e:a8)[0m
+[0;32mI (628) wifi:enable tsf[0m
+[0;32mI (3038) WifiStation: Found AP: 杜冥鸦, BSSID: 12:cd:cc:e8:e8:64, RSSI: -31, Channel: 1, Authmode: 3[0m
+[0;33mW (3038) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2[0m
+[0;32mI (3118) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (3118) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (3118) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (3128) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (3138) wifi:connected with 杜冥鸦, aid = 10, channel 1, BW20, bssid = 12:cd:cc:e8:e8:64[0m
+[0;32mI (3138) wifi:security: WPA2-PSK, phy: bgn, rssi: -19[0m
+[0;32mI (3138) wifi:pm start, type: 1[0m
+
+[0;32mI (3138) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (3148) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (3188) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us[0m
+[0;32mI (3188) wifi:AP's beacon interval = 102400 us, DTIM period = 2[0m
+[0;32mI (4178) WifiStation: Got IP: 192.168.43.141[0m
+[0;32mI (4178) esp_netif_handlers: sta ip: 192.168.43.141, mask: 255.255.255.0, gw: 192.168.43.1[0m
+[0;32mI (4178) Assets: The storage free size is 22080 KB[0m
+[0;32mI (4178) Assets: The partition size is 8192 KB[0m
+[0;32mI (4248) Assets: The checksum calculation time is 64 ms[0m
+create static modelsI (4248) MODEL_LOADER: Successfully load srmodels
+[0;32mI (4248) Assets: Refreshing display theme...[0m
+[0;33mW (4308) EmojiCollection: Emoji not found: microchip_ai[0m
+[0;32mI (4308) Application: STATE: activating[0m
+[0;32mI (4308) Ota: Current version: 2.0.4[0m
+[0;32mI (4508) wifi:<ba-add>idx:0 (ifx:0, 12:cd:cc:e8:e8:64), tid:0, ssn:1, winSize:64[0m
+[0;32mI (5018) esp-x509-crt-bundle: Certificate validated[0m
+[0;32mI (6168) Ota: Current is the latest version[0m
+[0;32mI (6168) Ota: Running partition: ota_0[0m
+[0;32mI (6168) MCP: Add tool: self.get_device_status[0m
+[0;32mI (6168) MCP: Add tool: self.audio_speaker.set_volume[0m
+[0;32mI (6168) MCP: Add tool: self.screen.set_brightness[0m
+[0;32mI (6178) MCP: Add tool: self.screen.set_theme[0m
+[0;32mI (6178) MCP: Add tool: self.get_system_info [user][0m
+[0;32mI (6178) MCP: Add tool: self.reboot [user][0m
+[0;32mI (6188) MCP: Add tool: self.upgrade_firmware [user][0m
+[0;32mI (6188) MCP: Add tool: self.screen.get_info [user][0m
+[0;32mI (6198) MCP: Add tool: self.screen.snapshot [user][0m
+[0;32mI (6198) MCP: Add tool: self.screen.preview_image [user][0m
+[0;32mI (6208) MCP: Add tool: self.assets.set_download_url [user][0m
+[0;32mI (6208) MQTT: Connecting to endpoint mqtt.xiaozhi.me[0m
+[0;32mI (6568) esp-x509-crt-bundle: Certificate validated[0m
+[0;32mI (7508) MQTT: Connected to endpoint[0m
+[0;32mI (7508) SystemInfo: free sram: 133003 minimal sram: 131631[0m
+[0;32mI (7508) Application: STATE: idle[0m
+[0;32mI (7508) AfeWakeWord: Model 0: wn9_nihaoxiaozhi_tts[0m
+[0;32mI (7508) AFE_CONFIG: Set WakeNet Model: wn9_nihaoxiaozhi_tts[0m
+MC Quantized wakenet9: wakenet9l_tts1h8_你好小智_3_0.631_0.635, tigger:v4, mode:0, p:0, (Oct 17 2025 17:48:44)
+[0;32mI (7558) AFE: AFE Version: (1MIC_V250121)[0m
+[0;32mI (7558) AFE: Input PCM Config: total 1 channels(1 microphone, 0 playback), sample rate:16000[0m
+[0;32mI (7568) AFE: AFE Pipeline: [input] ->  -> |VAD(WebRTC)| -> |WakeNet(wn9_nihaoxiaozhi_tts,)| -> [output][0m
+[0;32mI (7578) AfeWakeWord: Audio detection task started, feed size: 512 fetch size: 512[0m
+[0;32mI (7588) AudioService: OpusHead: version=1, channels=1, sample_rate=16000[0m
+[0;32mI (7598) AudioService: Resampling audio from 16000 to 24000[0m
+[0;32mI (7598) OpusResampler: Resampler configured with input sample rate 16000 and output sample rate 24000[0m
+[0;32mI (7618) main_task: Returned from app_main()[0m
+[0;32mI (9338) Application: STATE: connecting[0m
+[0;32mI (9448) MQTT: Session ID: f9f650d4[0m
+[0;32mI (9458) wifi:Set ps type: 0, coexist: 0[0m
+
+[0;32mI (9458) Application: Wake word detected: 你好小智[0m
+[0;32mI (9688) AfeWakeWord: Encode wake word opus 57 packets in 352 ms[0m
+[0;32mI (9688) Application: STATE: listening[0m
+[0;32mI (9698) AFE: AFE Version: (1MIC_V250121)[0m
+[0;32mI (9698) AFE: Input PCM Config: total 1 channels(1 microphone, 0 playback), sample rate:16000[0m
+[0;32mI (9698) AFE: AFE Pipeline: [input] -> |VAD(WebRTC)| -> [output][0m
+[0;32mI (9708) AfeAudioProcessor: Audio communication task started, feed size: 512 fetch size: 512[0m
+[0;32mI (9808) Application: STATE: speaking[0m
+[0;32mI (9808) Application: >> Hi, 小智[0m
+[0;32mI (10638) Application: << 嗨～今天想干嘛啦？[0m
+[0;32mI (13008) Application: STATE: listening[0m
+[0;32mI (22508) SystemInfo: free sram: 107267 minimal sram: 105915[0m
+[0;32mI (25168) Application: STATE: speaking[0m
+[0;32mI (25168) Application: >> 不太清楚，我要在这个UI界面进行修改。[0m
+[0;32mI (25698) Application: << 哦～是要改什么界面啊？[0m
+[0;32mI (28218) Application: << 前端是不是又给你整疯啦？[0m
+[0;32mI (30558) Application: STATE: listening[0m
+[0;32mI (40508) SystemInfo: free sram: 107135 minimal sram: 105207[0m
+[0;32mI (46508) AudioCodec: Set output enable to false[0m
+[0;32mI (50508) SystemInfo: free sram: 107135 minimal sram: 105207[0m
+[0;32mI (60508) SystemInfo: free sram: 107083 minimal sram: 105207[0m
+[0;32mI (70508) SystemInfo: free sram: 107135 minimal sram: 105207[0m
+[0;32mI (80508) SystemInfo: free sram: 107135 minimal sram: 105207[0m
+[0;32mI (86258) Application: STATE: speaking[0m
+[0;32mI (86258) Application: >> 觉得大概就把。[0m
+[0;32mI (87608) Application: << 啥东西“大概就把”？[0m
+[0;32mI (87868) AudioCodec: Set output enable to true[0m
+[0;32mI (89648) Application: << 你是在练功还是在写代码啊？[0m
+[0;32mI (92358) Application: STATE: listening[0m
+[0;32mI (101508) SystemInfo: free sram: 106711 minimal sram: 104691[0m
